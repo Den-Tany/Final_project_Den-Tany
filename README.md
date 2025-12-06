@@ -5,3 +5,5 @@
 - selenium
 - requests
 - sqlalchemy
+
+Гайд по Markdown: https://www.markdownguide.org/basic-syntax/

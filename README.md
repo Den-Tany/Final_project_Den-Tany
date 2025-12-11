@@ -6,4 +6,4 @@
 - requests
 - sqlalchemy
 
-[Гайд по Markdown:] (https://www.markdownguide.org/basic-syntax/)
+[Гайд по Markdown:](https://www.markdownguide.org/basic-syntax/)

@@ -1,0 +1,57 @@
+{
+    "button_nav":[
+                {"button_name": "Акции интернет-магазина",
+                "xpath_locator": "//span[@class='mtsds-tabs__tab-name'][contains(text(),",
+                "expected_url": "/actions/"},
+                {"button_name": "Смартфоны",
+                "xpath_locator": "//span[@class='mtsds-tabs__tab-name'][contains(text(),",
+                "expected_url": "/promo/smartfony/"}
+                ],
+    "search_field":[
+                    {"field_name": "Поиск",
+                    "xpath_locator":"//input[@placeholder="}
+                ],
+    "search_field_v2":[
+                    {"field_name": "Поле ввода",
+                    "xpath_locator":"//input[@id='search-popup-field']"}            
+                ],
+    "positiv_search_data":[
+                    {
+                        "product_name":"Samsung"
+                    },
+                    {
+                        "product_name":"HONOR"
+                    }
+                ],
+    
+    "negativ_search_data":[
+                    {
+                        "product_name":"DFGHJGFB"
+                    },
+                    {
+                        "product_name":"हेडफ़ोन"
+                    }
+                ],
+    "basket":[
+        {
+            "button_name": "Купить",
+            "xpath_locator": "(//button[contains(@class, 'mtsds-button')][contains(@class, 'mtsds-button--color--primary')])[2]"
+        },
+        {
+            "button_name": "В корзину",
+            "xpath_locator": "//a[@href='/personal/basket'][contains(@class, 'mtsds-button')]",
+            "expected_url": "/personal/basket"
+        },
+        {
+            "button_name": "Уменьшить количество товара",
+            "xpath_locator": "//button[@class='input-quantity__btn input-quantity__btn--minus']"
+        },
+        {
+            "button_name": "Удалить товар",
+            "xpath_locator": "//button[@class='product-card-basket-purchase__btn-delete']"
+        }
+                
+               
+    ]
+
+}

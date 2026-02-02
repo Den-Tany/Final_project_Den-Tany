@@ -1,0 +1,25 @@
+{
+    "positiv_search_data":[
+                    {
+                        "product_name":"Samsung"
+                    },
+                    {
+                        "product_name":"Samsung Galaxy Z Flip7 FE 8/128"
+                    },
+                    {
+                        "product_name":"Нож"
+                    },
+                    {
+                        "product_name":"Apple"
+                    }
+                ],
+    
+    "negativ_search_data":[
+                    {
+                        "product_name":"DFGHJGFB"
+                    },
+                    {
+                        "product_name":"हेडफ़ोन"
+                    }
+                ]
+}
